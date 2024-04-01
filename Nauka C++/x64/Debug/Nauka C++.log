@@ -1,0 +1,5 @@
+﻿  Nauka C++.cpp
+A:\Nauka C++\C_plus_plus\Nauka C++\Nauka C++.cpp(78,23): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+A:\Nauka C++\C_plus_plus\Nauka C++\Nauka C++.cpp(88,23): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+A:\Nauka C++\C_plus_plus\Nauka C++\Nauka C++.cpp(16,7): warning C4101: 'koniec': unreferenced local variable
+  Nauka C++.vcxproj -> A:\Nauka C++\C_plus_plus\Nauka C++\x64\Debug\Nauka C++.exe
