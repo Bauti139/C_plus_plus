@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "A:\\Nauka C\u002B\u002B\\C_plus_plus\\Nauka_Filmiki\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B82B95E5-5E48-4CD5-B086-97FFF4F9E9E8}|Nauka_Filmiki.vcxproj|A:\\Nauka C\u002B\u002B\\C_plus_plus\\Nauka_Filmiki\\Nauka_Filmiki.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B82B95E5-5E48-4CD5-B086-97FFF4F9E9E8}|Nauka_Filmiki.vcxproj|solutionrelative:Nauka_Filmiki.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Nauka_Filmiki.cpp",
+              "DocumentMoniker": "A:\\Nauka C\u002B\u002B\\C_plus_plus\\Nauka_Filmiki\\Nauka_Filmiki.cpp",
+              "RelativeDocumentMoniker": "Nauka_Filmiki.cpp",
+              "ToolTip": "A:\\Nauka C\u002B\u002B\\C_plus_plus\\Nauka_Filmiki\\Nauka_Filmiki.cpp",
+              "RelativeToolTip": "Nauka_Filmiki.cpp",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-02T16:42:48.243Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
