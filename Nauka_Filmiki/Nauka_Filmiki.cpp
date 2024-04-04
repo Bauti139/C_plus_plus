@@ -11,7 +11,7 @@ using namespace std;
 #include <iomanip>
 
 
-/* chapter 3
+/* chapter 2
 int addNumber(int pierwsza_cyfra, int druga_cyfra) {
     int suma = pierwsza_cyfra + druga_cyfra;
     cout << suma << endl;
@@ -21,7 +21,7 @@ int addNumber(int pierwsza_cyfra, int druga_cyfra) {
 int main()
 {
     setlocale(LC_CTYPE, "Polish");
-    //Chapter 3
+    //Chapter 2
    /* cout << "Podaj mi swoje imiê" << endl;
     string name;
     getline(cin, name);
@@ -32,7 +32,8 @@ int main()
     addNumber(10, 5);
     return 0;
     */
-    // Chapter 4
+    // Chapter 3
+    /*
     auto number1 = 9999999999999999999; //decimal
     long int longnumber = 30;
     long long int longernumber = 30;
@@ -60,6 +61,69 @@ int main()
     cin >> dokalkulatora;
     int operacja = dokalkulatora;
     cout << operacja << endl;
+    */
+    // Chapter 4
+    // Chapter 4.1
+    // adding
+    int number1 = 2;
+    int number2 = 7;
+    int suma = number1 + number2;
+    cout << suma << endl;
+    // substracution
+    suma = suma - number1;
+    cout << suma << endl;
+    //Multiplication
+    suma = suma * number2;
+    cout << suma << endl;
+    // Division
+    suma = suma / number1;
+    cout << suma << endl;
+    // Modulus
+    suma = suma % number2;
+    cout << suma << endl;
+    //Chapter 4.2
+    int a, b, c, d, e, f, g;
+    a = 5;
+    d = 5;
+    f = 5;
+    b = 10;
+    c = 3;
+    e = 2;
+    g = 20;
+    suma = a + b * c - d / e - f + g;
+    cout << suma << endl;
+    // Chapter 4.3
+    int value = 5;
+    value++;
+    cout << value << endl;
+    //First writes than adds one
+    cout << "The value is:" << value++ << endl;
+    for (int i = 0; i < 4; i++) {
+        value--;
+    }
+    cout << value << endl;
+    //First substract than writes
+    cout << "Now the value is:" << --value << endl;
+    // Chapter 4.4
+    value += 5;
+    cout << value << endl;
+    value -= 6;
+    cout << value << endl;
+    value *= 20;
+    cout << value << endl;
+    value /= 4;
+    cout << value << endl;
+    value %= 2;
+    cout << value << endl;
+    // Chapter 4.5
+    int x = 45;
+    int y = 60;
+    cout << "x < y\t" << (x < y) << endl;
+    cout << "x <= y\t" << (x <= y) << endl;
+    cout << "x > y\t" << (x > y) << endl;
+    cout << "x >= y\t" << (x >= y) << endl;
+    cout << "x == y\t" << (x == y) << endl;
+    cout << "x != y\t" << (x != y) << endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
