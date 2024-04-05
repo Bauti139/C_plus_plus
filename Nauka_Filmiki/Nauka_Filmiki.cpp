@@ -8,7 +8,10 @@ using namespace std;
 #include <typeinfo>
 #include <format>
 #include <numbers>
+#include <ios>
 #include <iomanip>
+#include <limits>
+#include <cmath>
 
 
 /* chapter 2
@@ -124,6 +127,53 @@ int main()
     cout << "x >= y\t" << (x >= y) << endl;
     cout << "x == y\t" << (x == y) << endl;
     cout << "x != y\t" << (x != y) << endl;
+    // Chapter 4.6
+    bool h = 1;
+    bool j= 0;
+    bool k = 1;
+    double q = 5.0231;
+    // AND
+    cout << (h && j) << endl;
+    cout << (h && k) << endl;
+    cout << (h && j && k) << endl;
+    // OR
+    cout << (h || j) << endl;
+    cout << (h || k) << endl;
+    // NOT
+    cout << !h << endl;
+    // Combine
+    cout << "!(h && j) || k:" << (!(h && j) || k) << endl;
+    // Chapter 4.7
+    cout << flush << "How are you mate?" << endl;
+    cout << setw(10) << "Daniel";
+    cout << setw(3)<< setfill('-') << 10;
+    cout << setw(5) << setfill('-') << 5672;
+    cout << endl;
+    cout << setprecision(20) << showpos << q;
+    // Chapter 4.8
+    float p = 0.05;
+    float v = 2.01;
+    float bird = 32.188;
+    //Limits of types of data like int or float
+    cout << numeric_limits<int>::max() << endl;
+    cout << numeric_limits<float>::min() << endl;
+    // Chapter 4.8
+    double weight = 7.7;
+    cout << "Wegiht rounded to floor is: " << floor(weight) << endl;
+    cout << "Weight rounded to ceil is: " << ceil(weight) << endl;
+    cout << "Abs of weight is: " << abs(weight) << endl;
+    cout << "The exponential of weight is: " << exp(weight) << endl;
+    cout << "3 ^ 4 is: " << pow(3, 4) << endl;
+    // Chapter 4.9
+    short int trying = 50;
+    short int todestroy = 60;
+    char var3 = 40;
+    char var4 = 50;
+    trying += todestroy;
+    cout << sizeof(trying) << endl;
+    auto result = var3 + var4;
+    cout << sizeof(result);
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
