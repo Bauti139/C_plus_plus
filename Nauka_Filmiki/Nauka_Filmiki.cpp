@@ -28,7 +28,7 @@ int main()
    /* cout << "Podaj mi swoje imiê" << endl;
     string name;
     getline(cin, name);
-     
+
     for (int i = 0; i < 10; i++) {
         cout << name << endl;
     }
@@ -68,6 +68,7 @@ int main()
     // Chapter 4
     // Chapter 4.1
     // adding
+    /*
     int number1 = 2;
     int number2 = 7;
     int suma = number1 + number2;
@@ -173,8 +174,67 @@ int main()
     cout << sizeof(trying) << endl;
     auto result = var3 + var4;
     cout << sizeof(result);
+    */
+    // Chapter 5
+// Chapter 5.1
+    bool red = false;
+    bool green = true;
+    bool yellow = false;
+    bool police_stop = true;
+    if (red) {
+        cout << "Stop" << endl;
+    }
+    if (yellow) {
+        cout << "Slow down" << endl;
+    }
+    if (green && !police_stop) {
+        cout << "Go" << endl;
+    }
+    else {
+        cout << "STOP" << endl;
+    }
+    int number1 = 55;
+    int number2 = 60;
+    bool result = number1 < number2;
+    cout << boolalpha << "result: " << result << endl;
+    cout << endl;
+    cout << "free standing if statment" << endl;
+    if (result == true) {
+        cout << number1 << "is less than" << number2 << endl;
+    }
+    else {
+        cout << number1 << "Is not less than" << number2 << endl;
+    }
+    // Chapter 5.2
+    const int Pen = 10;
+    const int Marker = 20;
+    const int Eraser = 30;
+    const int Rectangle = 40;
+    const int Circle = 50;
+    const int Ellipse = 60;
+    int tool = Ellipse;
+    if (tool == Pen) {
+        cout << "PEN" << endl;
+    }
+    else if (tool == Marker) {
+        cout << "Marker" << endl;
+    }
+    else if (tool == Eraser) {
+        cout << "Eraser" << endl;
+    }
+    else if (tool == Rectangle) {
+        cout << "Rectangle" << endl;
+    }
+    else if (tool == Circle) {
+        cout << "Circle" << endl;
+    }
+    else if (tool == Ellipse) {
+        cout << "Ellipse" << endl;
+    }
+    // chapter 5.3
 
 }
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
