@@ -232,9 +232,34 @@ int main()
         cout << "Ellipse" << endl;
     }
     // chapter 5.3
+    switch (tool) {
+    case Pen: {
+        cout << "PEN" << tool << endl;
+        break;
+    }
 
+    case Marker: {
+        cout << "Marker" << endl;
+        break;
+    }
+
+    default: {
+        cout << "NO TOOL FOR YOU :(" << endl;
+        break;
+    }
+          
+    }
+     //Chapter 5.4
+    int max = 0;
+    int a = 35;
+    int b = 20;
+    max = (a > b) ? a : b;
+    cout << "max :" << max << endl;
+    bool fast = 0;
+    int speed = (fast) ? 300 : 150;
+    cout << "Your speed is: " << speed << endl;
+    //Chapter 6
 }
-
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
