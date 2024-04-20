@@ -176,6 +176,7 @@ int main()
     cout << sizeof(result);
     */
     // Chapter 5
+    /*
 // Chapter 5.1
     bool red = false;
     bool green = true;
@@ -258,7 +259,27 @@ int main()
     bool fast = 0;
     int speed = (fast) ? 300 : 150;
     cout << "Your speed is: " << speed << endl;
-    //Chapter 6
+    */
+    //Chapter 6.1
+    for (int i = 0; i < 10; i++) {
+        cout << "i = " << i << endl;
+    }
+    for (size_t i = 0; i < 10; ++i) {
+        cout << "i = " << i << ". Double that and you get = " << 2 * i << endl;
+    }
+    // Chapter 6.2
+    const unsigned int count = 10;
+    unsigned int i = 1;
+    while (i <= count) {
+        cout << i << "\tI love c++" << endl;
+        i++;
+    }
+    i = 1;
+    // Chapter 6.3
+    do {
+        cout << "[" << i << "] : I love C++" << endl;
+        i++;
+    } while (i <= count);
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
