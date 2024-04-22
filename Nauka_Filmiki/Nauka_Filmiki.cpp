@@ -261,6 +261,7 @@ int main()
     cout << "Your speed is: " << speed << endl;
     */
     //Chapter 6.1
+/*
     for (int i = 0; i < 10; i++) {
         cout << "i = " << i << endl;
     }
@@ -280,6 +281,25 @@ int main()
         cout << "[" << i << "] : I love C++" << endl;
         i++;
     } while (i <= count);
+    */
+// Chapter 7
+// Chapter 7.1
+    double scores[10] = { 0 };
+int i;
+double sum = 0;
+for (i = 0; i < 10; i++) {
+    if (i == 0) {
+        scores[i] = scores[i] + (i * 5 + 4.5) / 4;
+    }
+    else {
+        scores[i] = scores[i - 1] + (i * 5 + 4.5) / 4;
+    }
+    cout << "Score " << i << " = " << scores[i] << endl;
+}
+for (int element : scores) {
+    sum += element;
+}
+cout << "Score sum = " << sum << endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
