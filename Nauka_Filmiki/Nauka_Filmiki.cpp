@@ -283,7 +283,7 @@ int main()
     } while (i <= count);
     */
 // Chapter 7
-// Chapter 7.1
+/*
     double scores[10] = { 0 };
 int i;
 double sum = 0;
@@ -300,6 +300,13 @@ for (int element : scores) {
     sum += element;
 }
 cout << "Score sum = " << sum << endl;
+*/
+// Chapter 8
+// Chapter 8.1
+int* p_number{};
+double* p_fravctional_number{};
+int* p_number1 = nullptr;
+int* p_fractional_number1 = nullptr;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
