@@ -304,9 +304,25 @@ cout << "Score sum = " << sum << endl;
 // Chapter 8
 // Chapter 8.1
 int* p_number{};
-double* p_fravctional_number{};
+double* p_fractional_number{};
 int* p_number1 = nullptr;
 int* p_fractional_number1 = nullptr;
+cout << "Size of number pointer: " << sizeof(p_number) << " , size of int " << sizeof(int) << endl;
+cout << "Size of fractional_number pointer: " << sizeof(p_fractional_number) << " , size of dobule: " << sizeof(double) << endl;
+cout << "Size of number1 pointer: " << sizeof(p_number1) << " , size of int " << sizeof(int) << endl;
+cout << "Size of fractional_number pointer: " << sizeof(p_fractional_number1) << " , size of dobule: " << sizeof(double) << endl;
+int int_var = 43;
+int* p_int = &int_var;
+cout << "Int var : " << int_var << endl;
+cout << "p_int (Adress in memory : " << p_int << endl;
+int int_var1 = 65;
+int_var = 126;
+p_int = &int_var1;
+cout << "p_int (with diffrent address) : " << p_int << endl;
+int* p_int1 = nullptr;
+double double_var = 33;
+// p_int1 = &double_var; // Error *int = &int *double = &double
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
