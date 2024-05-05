@@ -303,6 +303,7 @@ cout << "Score sum = " << sum << endl;
 */
 // Chapter 8
 // Chapter 8.1
+/*
 int* p_number{};
 double* p_fractional_number{};
 int* p_number1 = nullptr;
@@ -322,6 +323,18 @@ cout << "p_int (with diffrent address) : " << p_int << endl;
 int* p_int1 = nullptr;
 double double_var = 33;
 // p_int1 = &double_var; // Error *int = &int *double = &double
+*/
+// Chapter 8.2
+char* p_char_var = nullptr;
+char char_var = 'A';
+p_char_var = &char_var;
+cout << "The vaule stored in p_char_var is: " << p_char_var << endl;
+char char_var1 = 'C';
+p_char_var = &char_var1;
+cout << "The value stored in p_char_var is : " << p_char_var << endl;
+char message[] = "Hello there General Kenobi";
+p_char_var = &message[0];
+cout << "The value stored in p_char_var is : " << p_char_var << endl;;
 
 }
 

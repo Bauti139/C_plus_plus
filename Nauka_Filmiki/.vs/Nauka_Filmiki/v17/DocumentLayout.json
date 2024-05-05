@@ -5,6 +5,12 @@
     {
       "AbsoluteMoniker": "D:0:0:{B82B95E5-5E48-4CD5-B086-97FFF4F9E9E8}|Nauka_Filmiki.vcxproj|A:\\Nauka C\u002B\u002B\\C_plus_plus\\Nauka_Filmiki\\Nauka_Filmiki.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B82B95E5-5E48-4CD5-B086-97FFF4F9E9E8}|Nauka_Filmiki.vcxproj|solutionrelative:Nauka_Filmiki.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82B95E5-5E48-4CD5-B086-97FFF4F9E9E8}|Nauka_Filmiki.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.39.33519\\INCLUDE\\FORMAT||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82B95E5-5E48-4CD5-B086-97FFF4F9E9E8}|Nauka_Filmiki.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.39.33519\\INCLUDE\\NUMBERS||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +20,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "format",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\format",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\format",
+              "ViewState": "AQIAABUAAAAAAAAAAAASwCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-05T15:02:45.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "numbers",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\numbers",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\numbers",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-05T15:02:44.682Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +52,7 @@
               "RelativeDocumentMoniker": "Nauka_Filmiki.cpp",
               "ToolTip": "A:\\Nauka C\u002B\u002B\\C_plus_plus\\Nauka_Filmiki\\Nauka_Filmiki.cpp",
               "RelativeToolTip": "Nauka_Filmiki.cpp",
-              "ViewState": "AQIAACIBAAAAAAAAAAAiwEMBAAA/AAAA",
+              "ViewState": "AQIAADoBAAAAAAAAAAASwFgBAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-02T16:42:48.243Z",
               "EditorCaption": ""
