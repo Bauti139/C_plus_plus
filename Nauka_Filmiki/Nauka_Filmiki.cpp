@@ -325,6 +325,7 @@ double double_var = 33;
 // p_int1 = &double_var; // Error *int = &int *double = &double
 */
 // Chapter 8.2
+/*
 char* p_char_var = nullptr;
 char char_var = 'A';
 p_char_var = &char_var;
@@ -334,8 +335,21 @@ p_char_var = &char_var1;
 cout << "The value stored in p_char_var is : " << p_char_var << endl;
 char message[] = "Hello there General Kenobi";
 p_char_var = &message[0];
-cout << "The value stored in p_char_var is : " << p_char_var << endl;;
-
+cout << "The value stored in p_char_var is : " << p_char_var << endl;
+*/
+//Chapter 8.3
+const char* message = "Hello World!";
+cout << "message = " << message << endl;
+cout << "*message = " << *message << endl;
+char message1[] = "Hello World";
+message1[0] = 'B';
+cout << "message1 = " << message1 << endl;
+int* p_number4 = nullptr; 
+p_number4 = new int;
+*p_number4 = 77;
+cout << "Dynamically allocating memory *p_number4 = " << *p_number4 << endl;
+delete p_number4;
+p_number4 = nullptr;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
