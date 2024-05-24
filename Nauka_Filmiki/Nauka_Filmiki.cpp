@@ -338,6 +338,7 @@ p_char_var = &message[0];
 cout << "The value stored in p_char_var is : " << p_char_var << endl;
 */
 //Chapter 8.3
+/*
 const char* message = "Hello World!";
 cout << "message = " << message << endl;
 cout << "*message = " << *message << endl;
@@ -350,6 +351,36 @@ p_number4 = new int;
 cout << "Dynamically allocating memory *p_number4 = " << *p_number4 << endl;
 delete p_number4;
 p_number4 = nullptr;
+*/
+//Chapter 8.4
+cout << "Solution 1 : "<< endl;
+int* p_number5 = 0;
+int* p_number6 = new int{ 56 };
+if (p_number6 != nullptr) {
+    cout << "*pnumber6 : " << *p_number6 << endl;
+}
+cout << "Solution 2 : " << endl;
+int* p_number7 = new int{ 82 };
+cout << "p_number7 = " << *p_number7 << " - " << *p_number7 << endl;
+delete p_number7;
+p_number7 = nullptr; //reseting the pointer
+if (p_number7 != nullptr) {
+    cout << "*p_number7 = :" << p_number7 << endl;
+}
+int* p_number8 = new int{ 382 };
+int* p_number9 = p_number8;
+cout << "p_number8 - " << p_number8 << " = " << *p_number8 << endl;
+if (!(p_number8 == nullptr)) {
+    cout << "p_number 9 - " << p_number9 << " - " << *p_number9 << endl;
+}
+delete p_number8;
+p_number8 = nullptr;
+if (!(p_number8 == nullptr)) {
+    cout << "p_number9 = " << p_number9 << " - " << *p_number9 << endl;
+}
+else {
+    cerr << "WARNING : Trying to use an invalid pointer" << endl;
+}
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
