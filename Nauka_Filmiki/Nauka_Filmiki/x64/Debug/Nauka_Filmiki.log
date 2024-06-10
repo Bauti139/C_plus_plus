@@ -1,4 +1,6 @@
 ﻿  Nauka_Filmiki.cpp
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\format(42): warning STL4038: The contents of <format> are available only with C++20 or later.
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\numbers(11): warning STL4038: The contents of <numbers> are available only with C++20 or later.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\format(42): warning STL4038: The contents of <format> are available only with C++20 or later.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\numbers(11): warning STL4038: The contents of <numbers> are available only with C++20 or later.
+A:\Nauka C++\C_plus_plus\Nauka_Filmiki\Nauka_Filmiki.cpp(387,28): warning C4305: 'initializing': truncation from '__int64' to 'int'
+A:\Nauka C++\C_plus_plus\Nauka_Filmiki\Nauka_Filmiki.cpp(387,29): warning C4309: 'initializing': truncation of constant value
   Nauka_Filmiki.vcxproj -> A:\Nauka C++\C_plus_plus\Nauka_Filmiki\x64\Debug\Nauka_Filmiki.exe

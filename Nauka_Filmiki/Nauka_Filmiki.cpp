@@ -353,6 +353,7 @@ delete p_number4;
 p_number4 = nullptr;
 */
 //Chapter 8.4
+/*
 cout << "Solution 1 : "<< endl;
 int* p_number5 = 0;
 int* p_number6 = new int{ 56 };
@@ -381,6 +382,28 @@ if (!(p_number8 == nullptr)) {
 else {
     cerr << "WARNING : Trying to use an invalid pointer" << endl;
 }
+*/
+// Chapter 8.5
+int* lots_ofInts1 = new int(1000000000000000000);
+/*for (size_t i{}; i < 100000000000; i++) {
+    try {
+        int* lots_of_ints2 = new int{ 10000000 };
+    }catch (exception& ex) {
+        cout << "Cought exception ourselves = " << ex.what() << endl;
+    }
+}
+ Still destroys PC :( */
+for (size_t i{}; i < 100000000000; i++) {
+    int* lots_of_ints2 = new(nothrow)int{ 10000000 };
+    if (lots_of_ints2 == nullptr) {
+        cout << "Memory allocation failed" << endl;
+    }
+    else {
+        cout << "Memory allocation succeeded" << endl;
+    }
+}
+
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
